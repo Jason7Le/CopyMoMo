@@ -1,0 +1,423 @@
+/* 
+* @Author: Administrator
+* @Date:   2015-08-23 01:35:04
+* @Last Modified by:   Administrator
+* @Last Modified time: 2015-09-11 19:49:44
+*/
+/* -------css格式化 --------*/
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+ul, ol ,li{
+    list-style:none;
+}
+a{
+text-decoration: none;
+cursor: pointer;
+}
+/* ---------网站样式 ---------*/
+img{
+	display: block;
+}
+.w{
+	width: 980px;
+	margin: 0 auto;	
+}
+.fl {
+	float: left;
+}
+/* -------------------------- */
+/* ------------nav----------- */
+.box{
+	height: 660px;
+	background: #1e78e8;
+	overflow: hidden;
+}
+.nav{
+    position: relative;
+    z-index: 9999;
+}
+.nav ul li a{
+	font-size: 14px;
+	color: #fff;
+
+}
+.nav ul{
+	text-align: center;
+	width: 800px; 
+	height: 120px;
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+.nav ul li{
+	background: url(img/white-border.png) no-repeat 20px center;
+	line-height: 120px;
+	padding: 0 10px 0 50px;
+	float: left;
+	position: relative;
+}
+.nav ul li.index{
+	background:none;
+}
+.nav li span{
+	display: block;
+	background: url(img/white-sj.png)no-repeat 0 center;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top:56px;
+	right: -7px;
+
+}
+.nav li i{
+	display: block;
+	background: url(img/white-sj.png)no-repeat 0 center;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 56px;
+	right: -8px;
+}
+.logo{
+	background: url(img/white-logo.png)no-repeat center;
+	width: 215px;
+	height: 120px;
+	display: block;
+	left: -44px;
+	top:2px;
+	position: absolute;
+}
+.nav li ul.select{
+	width: 120px;
+	position: absolute;
+	left: 18px;
+	top: 80px;
+	background:#156bd4;
+	text-align: center;
+	margin-right: 20px;
+	display: none;
+}
+.nav li ul.select_2{
+	width: 120px;
+	position: absolute;
+	left: 20px;
+	top: 80px;
+	background:#156bd4;
+	text-align: center;
+	margin-right: 20px;
+	display: none;
+}
+.nav li ul li{
+	line-height: 28px;
+	background: none;
+	width: 120px;
+	margin: 0 auto;
+	padding: 0;
+}
+.nav li ul li.current{
+	background: #0c5dbf;
+}
+/* -------------------------- */
+/* ------banner video-------- */
+.banner{
+	position: relative;
+}
+.bigPic{
+	display: block;
+	height: 539px;
+	width: 1280px;
+	background: url(../img/header-bg6.jpg)no-repeat 0 center;
+	margin-left: 10px;
+	position: relative;
+	bottom: -123px;
+}
+.play{
+	background: rgba(0,0,0, 0) url(../img/play.png) no-repeat  scroll 0 0;
+	display: inline-block;
+	cursor: pointer;
+	height: 84px;
+	width: 84px;
+	position: absolute;
+	top: 274px;
+	left: 604px;
+}
+.baner .palyW{
+	w
+}
+/* -------------------------- */
+/* -------banner-button------ */
+.banner li div{
+	position: relative;
+	font-size: 20px;
+	height: 54px;
+	width: 682px;
+	top: -22px;
+	left: -4px;
+}
+.banner div a{
+	line-height: 53px;
+	margin:0 14px;
+	width:104px;
+	height: 52px;
+	padding-left: 65px;
+	border: 2px solid #fff;
+	float: left;
+	color: #fff;
+}
+.banner div .download{
+	background: #fff url(../img/icon.png)no-repeat 20px -56px;
+	color: #267be5;
+}
+.banner div .m-center{
+	background: rgba(0,0,0, 0) url(../img/icon.png)no-repeat 20px -162px;
+}
+.banner div .advertising{
+ 	background: rgba(0,0,0, 0 ) url(../img/icon.png) no-repeat -250px -31px;
+ }
+/* -------------------------- */
+/* ---------text+4pc--------- */
+.content{
+text-align: center;
+	margin: 180px auto 0;
+	margin-top: 10px;
+	height: 582px;
+	padding-left: 10px;
+}
+.content ul.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.tit{
+	color: #4a4a4a;
+	font-size: 30px;
+	margin: 180px auto 0;
+	font-weight: 100;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	position: relative;
+}
+.note{
+	color: #6f6f6f;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 22px 0 80px;
+}
+.content li{
+	float: left;
+	margin: 0 3px 5px 0;
+}
+/* -------------------------- */
+/* ---------- photo2--------- */
+.sec-2-photo{
+	width: 1200px;
+	margin: 0 auto;
+}
+.sec-2-photo01{
+	height: 414px;
+	width: 397px;
+}
+.sec-2-photo01 li{
+	float: left;
+	padding-left: 5px;
+}
+.Pic32{
+	position: relative;
+	overflow: hidden;
+}
+.Pic32 .intr-s{
+	padding: 10px;
+	color: #fff;
+	text-align: left;
+	line-height: 28px;
+	font-size: 16px;
+	background: #017aff;
+	width: 242px;
+	position: absolute;
+	height: 128px;
+}
+.Pic32 .intr-s dt{
+	font-weight: bold;
+}
+#Pic09,#Pic10{
+	position: relative;
+	overflow: hidden;
+}
+#Pic09 .intr-s,
+#Pic10 .intr-s{
+	padding: 8px;
+	color: #fff;
+	text-align: left;
+	line-height: 28px;
+	font-size: 16px;
+	background: #017aff;
+	width: 242px;
+	height: 128px;
+	position: absolute;
+}	
+/* -------------------------- */
+/* ----------dowload--------- */
+.sec-3{
+	text-align: center;
+	height: 350px;
+}
+.clearfix{
+	margin-top: 75px;
+	width: 1024px;
+	height: 245px;
+}
+.clearfix li{
+	width: 243px;
+	height: 243px;
+	margin-right: 10px;
+	border: 1px solid #e4e4e4;
+}
+.clearfix a{
+	display: block;
+	padding: 70px;
+	line-height: 27px;
+	color:#8b8a8a;
+	font-size: 18px;
+	font-family: 'Myriad Pro';
+}
+.dowload-ios,
+.dowload-Android,
+.dowload-WP{
+	margin-bottom: 18px;
+	display: block;
+	width: 43px;
+	height: 50px;
+}
+.dowload-ios{
+	background:url(../img/icon.png) 0 0px no-repeat ;
+}
+.dowload-Android{
+	background:url(../img/icon.png) -78px 0px no-repeat;
+}
+.dowload-WP{
+	background:url(../img/icon.png) -156px 0px no-repeat ;
+}
+.li04{
+	width: 244px;
+	height: 244px;
+}
+.qr-code{
+	margin: 70px auto;
+	width: 105px;
+	height: 105px;
+}
+.dw_ios,
+.dw_Android,
+.dw_WP{
+	position: relative;
+	display: none;
+}	
+.dw_ios img,
+.dw_Android img,
+.dw_WP img{
+	display: block;
+	position: absolute;
+	top: -235px;
+	left: -1px;
+	box-shadow: 20px 20px 40px -20px;
+	
+}
+/* -------------------------- */
+.sec-4{
+	margin: 180 auto;
+	width: 1140px;
+	height: 140px;
+}
+.sec-4 li{
+	width: 254px;
+	text-align: left;
+	height: 140px;
+}
+.sec-402{
+	width:259px;
+	height: 140px;
+	padding-left: 20px;
+	padding-right: 51px;
+	line-height: 19px;
+	float: left;
+	border-left: 1px dashed #9d9d9d;
+}
+.sec-402 a{
+	display: block;
+	font-size: 22px;
+	color: #434343;
+	line-height: 30px;
+	font-weight: 100;
+	height:30px;
+	padding-bottom: 5px;
+	position: relative;
+}
+.sec-4 i{
+	width: 25px;
+	height: 25px;
+	display: block;
+	background:url(../img/icon.png) -176px -69px no-repeat ;
+	position: absolute;
+	top: 7px;
+	left: 234px;
+}
+.clearfix-2{
+	margin:180px 0 0 90px;
+}
+.con{
+	margin-right:30px;
+	font-size: 14px;
+	line-height:26px;
+	color: #8a8a8a;
+}
+.sec-402-03 a{
+	margin-bottom: -9px;
+	font-size: 14px;
+	line-height:26px;
+	color: #8a8a8a;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.sec-402-03 a:hover{
+	color: #2FC0FF;
+}
+/* -------------------------- */
+/* ----------footer---------- */
+.footer{
+	width: 100%;
+	height: 102px;
+	text-align: center;
+	color: #646464;
+	margin-top: 180px;
+	padding-bottom: 133px;
+}
+.footer ul a{
+	color: #646464;
+}
+.footer ul{
+	margin:0 auto;
+	width: 410px;
+	height: 48px;
+}
+.footer ul li{
+	margin: 0 35px 15px 0;
+	float: left;
+}
+.footer p{
+	text-align: center;
+	line-height: 18px;
+	height: 18px;
+	overflow: hidden;
+}
+.footer p a{
+	color: #646464;
+}
+/* -------------------------- */
+/* 更新于2015-09-03 */
+/* 在此庆祝70周年反法西斯战争胜利！ */

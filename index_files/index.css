@@ -1,0 +1,331 @@
+/* 
+* @Author: Administrator
+* @Date:   2015-08-23 01:35:04
+* @Last Modified by:   Administrator
+* @Last Modified time: 2015-09-03 02:24:22
+*/
+/* -------css格式化 --------*/
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: outside none none;
+}
+a{
+text-decoration: none;
+}
+.w{
+	width: 1016px;
+	margin: 0 auto;	/* 没有宽度 ！！*/
+}
+.header {
+    color: #fff;
+    font-size: 14px;
+}
+.fl {
+	float: left;
+}
+.wrapper{
+	overflow: hidden;
+	height: 3198px;
+}
+.sec-2-photo,.tit,.sec-1,.sec-3,.sec-4{
+	width:1200px;
+}
+/* ---------网站样式 ---------*/
+.big-top-wrap{
+	background: #1e78eb;
+	width: 1263px;
+	height: 660px;
+}
+.headr{
+	height: 120px;
+	background: #1e78eb;
+}
+/* -------------------------- */
+/* -----------logo----------- */
+.logo{
+	position: relative;
+}
+.logo a{
+	display: block;
+	position: absolute;
+	top: 37px;
+	left: 14px;
+}
+/* -------------------------- */
+/* ------------nav----------- */
+.nav i{
+ 	 position:absolute;
+ 	 left:200px;
+ 	 top:150px;
+ 	}
+.nav i span,i b{
+ 	-moz-transform:rotate(90deg);
+	border-width:6px;
+	border-color: transparent transparent transparent #fff;   /* 左边框需要颜色 */
+	border-style: dashed dashed dashed solid ;     			  /* 左边框实边 */
+	display:inline-block;			/*转为块级*/
+	position:absolute;
+	right: 88px;
+	top:-95px;
+	overflow: hidden;
+}
+.nav ul li b{ 
+	left: 20px; 			/* 错开露出底部 */
+	border-left-color:#fff; /* 针对左边框修改颜色 */
+}
+.nav li{
+	float: left;
+	position: relative;
+	background: rgba(0, 0, 0, 0)url(../img/white-border.png) no-repeat scroll 0 center;
+}
+.headr .nav li.index{
+	right: 0;
+	padding-left: 109px;
+	background: none;
+}
+.nav li a{
+	font-size: 14px;
+	padding: 0 30px;
+	line-height: 120px;
+	color: #fff;
+	overflow: hidden;
+}
+/* -------------------------- */
+/* ------banner video-------- */
+.big-banner{
+	height: 540px;
+	width: 1228px;
+	background:#1e78eb
+	url(../img/header-bg6.jpg) 
+	no-repeat scroll 0 5px;
+	margin-left: 28px;
+}
+.banner-box .play{
+	background: rgba(0,0,0, 0) url(../img/play.png) no-repeat  scroll 0 0;
+	display: inline-block;
+	cursor: pointer;
+	height: 84px;
+	width: 84px;
+	position: absolute;
+	top: 274px;
+	left: 746px;
+}
+/* -------------------------- */
+/* -------banner-button------ */
+.banner-btn{
+	height: 51px;
+	width: 105px;
+	display: block;
+	border: 2px solid #fff;
+	padding-left: 65px;
+	font-size: 20px;
+	line-height: 51px;
+	position: relative;
+}
+.banner-box .download{
+	background: #fff url(../img/icon.png)no-repeat scroll 21px -57px;
+	color: #267be5;
+	bottom: 143px;
+	left: 28px;
+}
+.banner-box .m-center{
+	background: rgba(0,0,0, 0) url(../img/icon.png)no-repeat scroll 20px -163px;
+	color: #fff;
+	bottom: 143px;
+	left:54px;
+}
+.advertising{
+ 	background: rgba(0,0,0, 0 ) url(../img/icon.png) no-repeat -250px -32px ;
+	color: #fff;
+	bottom: 143px;
+	left: 80px;
+}
+/* -------------------------- */
+/* ---------text+4pc--------- */
+.sec-content{
+	text-align: center;
+	margin: 180px auto 0;
+}
+.sec-1{
+	margin-top: 10px;
+	height: 582px;
+	padding-left: 10px;
+}
+.tit{
+	color: #4a4a4a;
+	font-size: 30px;
+	margin: 180px auto 0;
+	font-weight: 100;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	position: relative;
+}
+.note{
+	color: #6f6f6f;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 22px 0 80px;
+}
+.sec-1 li{
+	float: left;
+	margin-right: 3px;
+}
+/* -------------------------- */
+/* ---------- photo2--------- */
+.sec-2-photo{
+	height: 414px;
+}
+.sec-2-photo01{
+	height: 414px;
+	width: 392px;
+}
+.sec-2-photo01 li{
+	float: left;
+	padding-left: 5px;
+}
+/* -------------------------- */
+/* -----------Jason---------- */
+/* ----------dowload--------- */
+
+.sec-3{
+	text-align: center;
+	height: 350px;
+}
+.clearfix{
+	margin-top: 75px;
+	width: 1020px;
+	height: 245px;
+}
+.clearfix li{
+	width: 243px;
+	height: 243px;
+	margin-right: 10px;
+	border: 1px solid #e4e4e4;
+}
+.clearfix a{
+	display: block;
+	padding-top: 70px;
+	line-height: 27px;
+	color:#8b8a8a;
+	font-size: 18px;
+	font-family: 'Myriad Pro';
+}
+.dowload-ios,.dowload-Android,.dowload-WP{
+	margin-bottom: 18px;
+	display: block;
+	width: 43px;
+	height: 50px;
+}
+.dowload-ios{
+	background:url(../img/icon.png) 0 0 no-repeat ;
+
+}
+.dowload-Android{
+	background:url(../img/icon.png) -78px 0 no-repeat;
+
+}
+.dowload-WP{
+	background:url(../img/icon.png) -155px 0 no-repeat ;
+
+}
+.li04{
+	width: 244px;
+	height: 244px;
+
+}
+.qr-code{
+	margin-top: 70px;
+	width: 105px;
+	height: 105px;
+}
+/* -------------------------- */
+.sec-4 li{
+	width: 259px;
+	text-align: left;
+	height: 140px;
+}
+.sec-402{
+	width:259px;
+	height: 140px;
+	padding-left: 20px;
+	padding-right: 58px;
+	line-height: 19px;
+	float: left;
+	border-left: 1px dashed #9d9d9d;
+}
+.sec-402 a{
+	display: block;
+	font-size: 22px;
+	color: #434343;
+	line-height: 30px;
+	font-weight: 100;
+	height:30px;
+	padding-bottom: 5px;
+	position: relative;
+}
+.sec-4 i{
+	width: 25px;
+	height: 25px;
+	display: block;
+	background:url(../img/icon.png) -176px -69px no-repeat ;
+	position: absolute;
+	top: 7px;
+	left: 234px;
+}
+.clearfix-2{
+	margin:180px 0 0 90px;
+}
+.con{
+	margin-right:30px;
+	font-size: 14px;
+	line-height:26px;
+	color: #8a8a8a;
+}
+.sec-402-03 a{
+	margin-bottom: -9px;
+	font-size: 14px;
+	line-height:26px;
+	color: #8a8a8a;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.sec-402-03 a:hover{
+	color: #2FC0FF;
+}
+/* -------------------------- */
+/* ----------footer---------- */
+.common-footer{
+	height: 102px;
+	text-align: center;
+	color: #646464;
+}
+.common-footer a{
+	color: #646464;
+}
+.common-footer ul{
+	margin:0 auto;
+	width: 410px;
+	height: 48px;
+}
+.common-footer ul li{
+	margin: 0 35px 15px 0;
+	float: left;
+}
+.common-footer p{
+	text-align: center;
+	line-height: 18px;
+	height: 18px;
+	overflow: hidden;
+}
+/* -------------------------- */
+.footer-bottom{
+	height: 133px;
+}

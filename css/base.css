@@ -1,0 +1,390 @@
+/* -------css格式化 --------*/
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft YaHei","微软雅黑",arial,simsun,"宋体";
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+ul, ol ,li{
+    list-style:none;
+}
+a{
+text-decoration: none;
+}
+/* ---------网站样式 ---------*/
+img{
+	display: block;
+}
+.w{
+	width: 980px;
+	margin: 0 auto;	
+}
+.fl {
+	float: left;
+}
+/* -------------------------- */
+/* ------------nav----------- */
+.nav .w{
+    height: 120px;
+    position: relative;
+}
+.nav{
+	border-bottom: 1px solid #e4e4e4;
+	font-size: 14px;
+	height: 120px;
+	color: #6f6f6f;
+}
+.nav ul{
+	text-align: center;
+	width: 800px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.nav ul li{
+	background: url(img/gray-border.png) no-repeat 20px center;
+	line-height: 120px;
+	padding: 0 10px 0 50px;
+	float: left;
+}
+.nav ul li.index{
+	background:none;
+}
+.nav li span{
+	display: block;
+	background: url(img/xsj.png)no-repeat 0 center;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top:55px;
+	right: -7px;
+
+}
+.nav li i{
+	display: block;
+	background: url(img/xsj.png)no-repeat 0 center;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 55px;
+	right: 123px;
+}
+.nav .about a{
+	color: #1e78e7;
+}
+.logo{
+	background: url(img/blue-logo.png)no-repeat center;
+	width: 215px;
+	height: 120px;
+	display: block;
+	left: -45px;
+	top:-2px;
+	position: absolute;
+}
+/* -------------------------- */
+/* -----------内容区--------- */
+.box{
+	width: 960px;
+	height: 120px;
+	margin:0 auto;
+}
+.subnav{
+	width: 420px;
+	left: 0px;
+	height: 80px;
+}
+.subnav li{
+	padding-bottom: 14px;
+	margin: 43px 75px 0 0;
+	font-size: 16px;
+	color: #6f6f6f;
+	float: left;
+	border-bottom: 3px solid #1e78e7;
+}
+.subnav li.vip,li.uesr{
+	border: none;
+}
+
+/* -------------------------- */
+
+.content{
+	color: #5a5959;
+	height: 1999px;
+}
+.content h2{
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 49px;
+}
+.content_1 li{
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+	margin-bottom: 62px;
+}
+.year{
+	height: 657px;
+	width: 980px;
+	margin: 57px auto;
+	position: relative;
+}
+.year ul{
+	padding-left: 20px;
+}
+/* 年份图片 */
+.content .year img{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+/* 竖虚线i */
+.content .year i{
+	left: 485px;
+	background: url(img/about/dotted-y.jpg);
+	display: block;
+	position: absolute;
+}
+/* 横虚线span */
+.content .year span{
+	display: block;
+	background: url(img/about/dotted-y02.png);
+	position: absolute;
+}
+/* 虚线转角left */
+.content .year
+.year11 div,
+.year13 div,
+.year15 div{
+	height: 9px;	
+	width: 14px;
+	background: url(img/about/dotted-left.jpg);
+	display: block;
+	position: absolute;
+}
+/* 虚线转角right */
+.content 
+.year12 div,
+.year14 div{
+	left: -5px;
+	width: 7px;
+	height: 16px;
+	background: url(img/about/dotted-right.png);
+	position: absolute;
+}
+/* 蓝色圆点 */
+.content .year .round,
+.year .round2{
+	left: 480px;
+    height: 13px;
+	width: 13px;
+	position: absolute;
+	background: url(img/about/dotted-blue.png);
+}
+/* ----------------- */
+/* ----------year11----------------- */
+
+.content .year{
+	padding-top: 93px;
+}
+.content .year p{
+	font-size: 14px;
+	text-align: left;
+}
+.content .year11 span{
+	top: 142px;
+	left: 2px;
+	height: 3px;
+	width: 478px;
+}
+.content .year11 i{
+	height: 144px;
+	width: 3px;
+	top: -10px;
+}
+.content .year11 div{
+	left: 475px;
+	top: 136px;
+}
+
+/* ----------year12----------------- */
+ .content .year12{
+	height: 168px;
+	width: 463px;
+	position: absolute;
+	top: 217px;
+	left: 50%;
+}
+.content .year12 .title,
+.year13 .title{
+	position: absolute;
+	top: 14px;
+	left: 133px;
+}
+.content .year12 li,
+.year13,
+.year14,.year15{
+	line-height: 28px;
+	text-align: left;
+}
+.content .year12 span{
+	width: 466px;
+	height: 3px;
+	top: 52px;
+	left: -2px;
+}
+.content .year12 i{
+	height: 97px;
+	width: 3px;
+	top:-51px;
+	left: -5px;
+}
+.content .year12 .round{
+	top: -64px;
+	left: -10px;
+}
+.content .year12 div{
+	top: 39px;
+}
+/* ----------year13----------------- */
+.content .year13{
+	height: 168px;
+	width: 463px;
+	position: absolute;
+	top: 336px;
+}
+.content .year13 span{
+	width: 478px;
+	height: 3px;
+	top: 58px;
+	left: 2px;
+}
+.content .year13 i{
+	width: 3px;
+	height: 88px;
+	top: -38px;
+}
+.content .year13 .round{
+	top: -52px;
+}
+.content .year13 div{
+	top: 52px;
+	left: 476px;
+}
+/* ----------year14----------------- */
+.year14{
+	width: 463px;
+	height: 168px;
+	position: absolute;
+	left: 50%;
+	top: 468px;
+}
+.content .year14 span{
+	width: 466px;
+	height: 3px;
+	top: 50px;
+	left: -1px;
+}
+.content .year14 .round{
+	top: -62px;
+	left: -10px;
+}
+.content .year14 i{
+	height: 88px;
+	width: 3px;
+	top: -48px;
+	left: -5px;
+}
+.content .year14 div{
+    top: 37px;
+}
+/* ----------year15----------------- */
+.year15{
+	width: 446px;
+	height: 136px;
+	position: absolute;
+	bottom: 0px;
+}
+.content .year15 i{
+	width: 3px;
+	height: 200px;
+	top: -40px;
+	z-index: 2;
+}
+.content .year15 span{
+	width: 480px;
+	height: 3px;
+	top: 52px;
+	left: 3px;
+}.content .year15 div{
+	top: 46px;
+	left: 476px;
+}
+.content .year15 .round{
+    top: -52px;
+    z-index: 3;
+}
+.content .year15 .round2{
+	left: 480px;
+    top: 20px;
+    z-index: 3;
+}
+/* -------------------- */
+.team{
+    margin-top: 150px;
+}
+.team ul{
+	margin-bottom: 106px;
+	text-align: center;
+}
+.team ul h2{
+	margin: 24px 0 0;
+}
+.team div{
+	width: 980px;
+	height: 731px;
+}
+.team .photo_box .photo_1{
+	width: 980px;
+	height: 223px;
+}
+.team .photo_box .photo_1 li{
+	margin: 0px auto;
+	margin: 0px 5px 0 75px;
+	float: left;
+	
+}
+.team .photo_box .photo_2{
+	margin: 0 auto;
+}
+.team .photo_box .photo_2 li{
+	margin: 30px;
+	float: left;
+}
+
+/* ----------footer---------- */
+.footer{
+	height: 102px;
+	text-align: center;
+	margin: 150px 0 133px 0;
+}
+.footer, a{
+	color: #646464;
+}
+.footer ul{
+	margin:0 auto;
+	width: 410px;
+	overflow: hidden;
+}
+.footer ul li{
+	margin: 0 35px 15px 0;
+	float: left;
+
+}
+.footer p{
+	margin:0 auto;
+	text-align: center;
+	line-height: 18px;
+	width: 508px;
+}
+/* -------------------------- */
